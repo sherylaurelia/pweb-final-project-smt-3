@@ -47,9 +47,37 @@
 .header-right {
   float: right;
 }
+.banner{
+  background-image: url(SchotelkoeMain.jpeg);
+  width: 100%;
+  height: 600px;
+  background-position: absolute;
+}
+.banner p{
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  font-family: 'Abel', sans-serif;
+  padding: 5px;
+  margin-left: 100px;
+}
+.button{
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  font-family: 'Abel', sans-serif;
+  padding: 3px;
+  margin-left: 100px;
+  background-color:#E94601 ;
+  border: 1px solid white;
+  border-radius: 5px;
+}
 .product {
   margin-top: 10px;
   background-color: rgb(114, 111, 111);
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: hidden;
 }
 .col{
   flex-basis: 30%;
@@ -74,9 +102,11 @@
 .ingridient{
   margin-top: 10px;
   background-color: rgb(114, 111, 111);
+  padding: 20px 10px;
+  overflow: hidden;
 }
 .small-container-1{
-  max-width: 960px;
+  max-width: 1080px;
   margin: auto;
   padding-left: 50px;
   padding-right: 50px;
@@ -147,12 +177,23 @@ th:last-child{
   text-align: right;
 }
 .footer {
-	text-align: left;
-  padding: 45px;
+  overflow: hidden;
+  background-color: rgb(254, 189, 89);
+  padding: 20px 10px;
+}
+.footer p{
+  text-align: left;
+  padding: 10px;
   font-family: 'Abel', sans-serif;
   font-size: 16px;
-	background: rgb(254, 189, 89);
-	color: white;
+  color: white;
+}
+.footer a{
+  text-align: left;
+  padding: 5px;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  color: white;
 }
 h1 {
   font-family: 'Abel', sans-serif;
