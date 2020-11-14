@@ -1,0 +1,127 @@
+.body { 
+  font-family: 'Abel', sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+  
+.header a {
+  color: black;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px; 
+  line-height: 30px;
+  border-radius: 6px;
+  top: 50%;
+  left: 50%;
+}
+  
+.logo {
+  height: 31%;
+  width: 31%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-left  {
+  float: none;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  .header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+.header a.active {
+  background: rgb(254, 189, 89);
+  color: white;
+}   
+
+.header-right {
+  float: right;
+}
+.product {
+  margin-top: 10px;
+  background-color: rgb(114, 111, 111);
+}
+.col{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col img{
+  width: 100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ingridient{
+  margin-top: 10px;
+  background-color: rgb(114, 111, 111);
+}
+.small-container-1{
+  max-width: 960px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.col-1{
+  flex-basis: 30%;
+  min-width: 150px;
+  margin-bottom: 30px;
+
+}
+.col-1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.footer {
+	text-align: left;
+  padding: 45px;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+	background: rgb(254, 189, 89);
+	color: white;
+}
+h1 {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  margin-top: 5px;
+}
+h3 {
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color:white;
+  margin-top: 5px ;
+  background-color: #E94601;
+  padding: 5px;
+}
