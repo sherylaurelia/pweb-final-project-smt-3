@@ -1,0 +1,56 @@
+.body { 
+    font-family: 'Abel', sans-serif;
+}
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    color: black;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 30px;
+    border-radius: 6px;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .logo {
+    height: 31%;
+    width: 31%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-left  {
+    float: none;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background: rgb(254, 189, 89);
+    color: white;
+  }   
+
+  .header-right {
+    float: right;
+  }
+.footer {
+	text-align: left;
+    padding: 45px;
+    font-family: 'Abel', sans-serif;
+	background: rgb(254, 189, 89);
+	color: white;
+  }
