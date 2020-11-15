@@ -54,11 +54,11 @@
   background-position: absolute;
 }
 .banner p{
-  font-size: 30px;
+  font-size: 60px;
   color: white;
   text-align: left;
   font-family: 'Abel', sans-serif;
-  padding: 5px;
+  padding-top: 100px;
   margin-left: 100px;
 }
 .button{
