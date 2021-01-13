@@ -113,6 +113,7 @@
 }
 .col-1{
   flex-basis: 30%;
+  justify-content: space-evenly;
   min-width: 150px;
   margin-bottom: 30px;
 
@@ -122,6 +123,7 @@
   height: 270px;
   border-radius: 50%;
   margin: 25px 25px;
+  justify-content: space-evenly
 }
 .small-container-cp{
   margin: 80px;
