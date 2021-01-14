@@ -81,7 +81,7 @@
 }
 
 @media screen and (max-width :800Px){
-  .header, .header a, header-left, header-right{
+  .header, .header a, .header-left, .header-right, .banner, .banner p{
     position: relative;
   }
 }
