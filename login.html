@@ -34,7 +34,7 @@
         <h2>LOGIN</h2>
         <div class="underline-title"></div>
       </div>
-      <form method="post" class="form">
+      <form name = login method="post" class="form">
         <label for="user-email" style="padding-top:13px">
             &nbsp;Email
           </label>
@@ -47,12 +47,19 @@
         <a href="#">
           <legend id="forgot-pass">Forgot password?</legend>
         </a>
-        <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+        <input id="submit-btn" type="submit" name="submit" value="LOGIN" onclick="inputLogin()"/>
         <a href="signup.html" id="signup">Don't have account yet?</a>
       </form>
     </div>
   </div>
 </div>
+<table id="inputLogin">
+	<tr>
+		<td><b>Email</b></td>
+		<td><b>Password</b></td>
+	</tr>
+</table>
+	
 <!--footer-->
 <div class="footer">
 	<p>Opening Hours :<br>
