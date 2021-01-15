@@ -384,3 +384,37 @@ label {
   margin: -1.1rem auto 0 auto;
   width: 89px;
 }
+
+#inputLogin {
+    border: 1px;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 50px;
+    background: pink;
+    border-color: blacktt ;
+    color: #fff;
+    border-collapse: collapse;
+    font-weight: normal;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    display: none;
+}
+
+#inputSignUp {
+    border: 1px;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 50px;
+    background: pink;
+    border-color: blacktt ;
+    color: #fff;
+    border-collapse: collapse;
+    font-weight: normal;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    height: 50px;
+    display: none;
+}
